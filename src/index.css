@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.card {
+  max-width: 18rem;
+  margin: 2rem;
+  transition: all .5s ease;
+
+}
+.card:hover {
+  border-color: brown;
+  -webkit-box-shadow: -2px 3px 15px 6px rgba(0,0,0,0.57);
+  -moz-box-shadow: -2px 3px 15px 6px rgba(0,0,0,0.57);
+  box-shadow: -2px 3px 15px 6px rgba(0,0,0,0.57);
+}
